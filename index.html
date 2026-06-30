@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Crescendo Music Tuition | Piano, Guitar, Violin &amp; Singing Lessons in Reading</title>
+<meta name="description" content="Crescendo Music Tuition offers warm, friendly one-to-one music lessons in Reading — piano, guitar, violin, singing and theory. DBS-checked teacher, ABRSM &amp; Trinity exam prep, all ages and levels. Book your free taster." />
+<link rel="canonical" href="https://boz-demo-crescendo.vercel.app" />
+<meta name="theme-color" content="#11203f" />
+<meta name="author" content="Crescendo Music Tuition" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Crescendo Music Tuition" />
+<meta property="og:title" content="Crescendo Music Tuition | Music Lessons in Reading" />
+<meta property="og:description" content="Warm, friendly one-to-one music lessons in Reading — piano, guitar, violin, singing &amp; theory. DBS-checked, exam prep, all ages. Book a free taster." />
+<meta property="og:url" content="https://boz-demo-crescendo.vercel.app" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:image" content="https://picsum.photos/seed/crescendo-og/1200/630" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Crescendo Music Tuition | Music Lessons in Reading" />
+<meta name="twitter:description" content="Warm, friendly one-to-one music lessons in Reading — piano, guitar, violin, singing &amp; theory. Book a free taster." />
+<meta name="twitter:image" content="https://picsum.photos/seed/crescendo-og/1200/630" />
+
+<!-- Favicon (inline SVG) -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2311203f'/%3E%3Cpath d='M40 14v23.2a9 9 0 1 1-4-7.48V20l-14 4v17.2a9 9 0 1 1-4-7.48V22a4 4 0 0 1 3-3.87l15-4.26A3 3 0 0 1 40 14z' fill='%23d8a64a'/%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Nunito+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+
+<!-- JSON-LD: MusicSchool / LocalBusiness -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["MusicSchool", "LocalBusiness"],
+  "name": "Crescendo Music Tuition",
+  "description": "Private music tuition in Reading — piano, guitar, violin, singing and music theory for all ages and abilities. DBS-checked teacher with ABRSM and Trinity exam preparation.",
+  "url": "https://boz-demo-crescendo.vercel.app",
+  "telephone": "+441189460123",
+  "email": "hello@crescendomusic.co.uk",
+  "priceRange": "££",
+  "image": "https://picsum.photos/seed/crescendo-og/1200/630",
+  "logo": "https://boz-demo-crescendo.vercel.app/favicon.svg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "27 Castle Street",
+    "addressLocality": "Reading",
+    "addressRegion": "Berkshire",
+    "postalCode": "RG1 7SB",
+    "addressCountry": "GB"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 51.4524, "longitude": -0.9779 },
+  "areaServed": ["Reading", "Caversham", "Tilehurst", "Earley", "Woodley", "Wokingham"],
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "15:00", "closes": "20:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "14:00" }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/crescendomusictuition",
+    "https://www.instagram.com/crescendomusictuition",
+    "https://www.youtube.com/@crescendomusictuition"
+  ],
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "63" }
+}
+</script>
+
+<!-- JSON-LD: Course -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "One-to-One Piano Lessons",
+  "description": "Weekly private piano lessons for beginners through to ABRSM Grade 8, covering technique, sight-reading, theory and repertoire.",
+  "provider": {
+    "@type": "MusicSchool",
+    "name": "Crescendo Music Tuition",
+    "sameAs": "https://boz-demo-crescendo.vercel.app"
+  },
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "onsite",
+    "location": { "@type": "Place", "name": "Crescendo Studio, Reading" },
+    "courseWorkload": "PT30M"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "22.00",
+    "priceCurrency": "GBP",
+    "category": "30-minute lesson"
+  }
+}
+</script>
+
+<!-- JSON-LD: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How old does my child need to be to start lessons?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Most children are ready for structured lessons from around age 6 or 7, but I teach all ages from 5 to 90+. For very young learners I keep lessons short, playful and game-based to build a love of music first." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need my own instrument at home?",
+      "acceptedAnswer": { "@type": "Answer", "text": "For piano and guitar you'll need an instrument to practise on at home — a basic keyboard or acoustic guitar is fine to start. I'm happy to advise on affordable beginner instruments before you buy. The studio is fully equipped for lessons." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you prepare students for graded exams?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. I prepare students for ABRSM and Trinity College London graded exams from Initial to Grade 8, including theory. Exams are completely optional — many students learn purely for enjoyment." }
+    },
+    {
+      "@type": "Question",
+      "name": "Are you DBS checked?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. I hold an Enhanced DBS certificate (updated annually) and I'm registered with the Update Service. I'm a full member of the Musicians' Union and carry public liability insurance." }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if we need to cancel a lesson?",
+      "acceptedAnswer": { "@type": "Answer", "text": "I ask for at least 24 hours' notice to rearrange a lesson within the same term where possible. Lessons cancelled with less notice can't usually be refunded, but I'll always do my best to find a make-up slot." }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a href="#top" class="brand" aria-label="Crescendo Music Tuition home">
+      <svg class="brand-mark" viewBox="0 0 64 64" width="40" height="40" aria-hidden="true">
+        <rect width="64" height="64" rx="14" fill="#11203f"/>
+        <path d="M40 14v23.2a9 9 0 1 1-4-7.48V20l-14 4v17.2a9 9 0 1 1-4-7.48V22a4 4 0 0 1 3-3.87l15-4.26A3 3 0 0 1 40 14z" fill="#d8a64a"/>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-name">Crescendo</span>
+        <span class="brand-sub">Music Tuition</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Open menu">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+
+    <nav class="primary-nav" id="primaryNav" aria-label="Primary">
+      <ul>
+        <li><a href="#subjects">Lessons</a></li>
+        <li><a href="#approach">Approach</a></li>
+        <li><a href="#schedule">Book a slot</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#trust">About &amp; FAQ</a></li>
+        <li><a href="#contact" class="nav-cta">Free taster</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-staff" aria-hidden="true">
+      <span class="staff-line"></span><span class="staff-line"></span><span class="staff-line"></span><span class="staff-line"></span><span class="staff-line"></span>
+      <span class="float-note note-1">&#9833;</span>
+      <span class="float-note note-2">&#9834;</span>
+      <span class="float-note note-3">&#9835;</span>
+      <span class="float-note note-4">&#9833;</span>
+    </div>
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Reading &amp; surrounding villages</p>
+        <h1 id="hero-title">Music lessons that make <span class="hl">every learner</span> want to keep playing.</h1>
+        <p class="hero-lead">Warm, patient one-to-one tuition in piano, guitar, violin, singing and theory — for curious five-year-olds, busy teenagers and adults rediscovering an old passion. Taught by Eleanor Hartley, DBS-checked, with 14 years' experience.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Book a free taster</a>
+          <a href="#schedule" class="btn btn-ghost">See available times</a>
+        </div>
+        <ul class="hero-badges" aria-label="Key facts">
+          <li><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M12 2l2.5 5 5.5.8-4 3.9.9 5.5L12 20l-4.9 2.6.9-5.5-4-3.9 5.5-.8z"/></svg> ABRSM &amp; Trinity exam prep</li>
+          <li><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M12 1l9 4v6c0 5.6-3.8 10.7-9 12-5.2-1.3-9-6.4-9-12V5z"/></svg> Enhanced DBS checked</li>
+          <li><svg viewBox="0 0 24 24" class="ico" aria-hidden="true"><path d="M12 8a4 4 0 100 8 4 4 0 000-8zm0-6v3m0 14v3M2 12h3m14 0h3"/></svg> All ages &amp; abilities</li>
+        </ul>
+      </div>
+      <div class="hero-media">
+        <img src="https://picsum.photos/seed/crescendo-piano/640/720" width="640" height="720" alt="A teacher sitting beside a young student at a grand piano during a lesson" loading="eager" />
+        <div class="hero-eq" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TRUST STRIP ===== -->
+  <section class="trust-strip" aria-label="At a glance">
+    <div class="container trust-strip-inner">
+      <div class="stat"><strong>14</strong><span>years teaching</span></div>
+      <div class="stat"><strong>4.9&#9733;</strong><span>from 63 families</span></div>
+      <div class="stat"><strong>Grade 8</strong><span>piano &amp; theory prepared</span></div>
+      <div class="stat"><strong>120+</strong><span>students taught</span></div>
+    </div>
+  </section>
+
+  <!-- ===== SUBJECTS (Feature A) ===== -->
+  <section class="section" id="subjects" aria-labelledby="subjects-title">
+    <div class="container">
+      <p class="eyebrow center">What you can learn</p>
+      <h2 id="subjects-title" class="section-title">Pick an instrument or subject</h2>
+      <p class="section-intro">Tap any subject to see how lessons are structured, what you'll cover and who it suits. Lessons are tailored to each learner — there's no rigid one-size-fits-all curriculum.</p>
+
+      <div class="subject-layout">
+        <div class="subject-menu" role="tablist" aria-label="Choose a subject">
+          <button class="subject-tab is-active" role="tab" id="tab-piano" aria-selected="true" aria-controls="panel-piano" data-subject="piano">
+            <span class="subject-ico" aria-hidden="true">&#127929;</span> Piano
+          </button>
+          <button class="subject-tab" role="tab" id="tab-guitar" aria-selected="false" aria-controls="panel-guitar" tabindex="-1" data-subject="guitar">
+            <span class="subject-ico" aria-hidden="true">&#127928;</span> Guitar
+          </button>
+          <button class="subject-tab" role="tab" id="tab-violin" aria-selected="false" aria-controls="panel-violin" tabindex="-1" data-subject="violin">
+            <span class="subject-ico" aria-hidden="true">&#127931;</span> Violin
+          </button>
+          <button class="subject-tab" role="tab" id="tab-singing" aria-selected="false" aria-controls="panel-singing" tabindex="-1" data-subject="singing">
+            <span class="subject-ico" aria-hidden="true">&#127908;</span> Singing
+          </button>
+          <button class="subject-tab" role="tab" id="tab-theory" aria-selected="false" aria-controls="panel-theory" tabindex="-1" data-subject="theory">
+            <span class="subject-ico" aria-hidden="true">&#127932;</span> Theory
+          </button>
+        </div>
+
+        <div class="subject-panels">
+          <!-- Panels injected/toggled by JS; all present for no-JS fallback -->
+          <div class="subject-panel is-active" role="tabpanel" id="panel-piano" aria-labelledby="tab-piano">
+            <div class="panel-grid">
+              <div class="panel-text">
+                <h3>Piano</h3>
+                <p>The instrument I've taught the longest. We build solid technique and reading from day one, but always around music you actually want to play — film themes, pop, classical or your own ideas.</p>
+                <ul class="panel-points">
+                  <li>Beginner to ABRSM Grade 8</li>
+                  <li>Sight-reading, scales &amp; aural built in gently</li>
+                  <li>Acoustic, digital piano or keyboard all welcome</li>
+                </ul>
+                <p class="panel-meta"><strong>Best for:</strong> ages 6+, complete beginners, returning adults.</p>
+              </div>
+              <img src="https://picsum.photos/seed/crescendo-keys/520/360" width="520" height="360" alt="Close-up of hands playing piano keys" loading="lazy" />
+            </div>
+          </div>
+
+          <div class="subject-panel" role="tabpanel" id="panel-guitar" aria-labelledby="tab-guitar" hidden>
+            <div class="panel-grid">
+              <div class="panel-text">
+                <h3>Guitar</h3>
+                <p>Acoustic, classical or electric. Most students are strumming real songs within a few weeks, then we layer in fingerstyle, chords beyond the basics, and reading or tab depending on your goals.</p>
+                <ul class="panel-points">
+                  <li>Chords, strumming patterns &amp; song-learning</li>
+                  <li>Fingerstyle, scales &amp; improvisation</li>
+                  <li>Rock School &amp; Trinity grades if wanted</li>
+                </ul>
+                <p class="panel-meta"><strong>Best for:</strong> ages 8+, teens, adult beginners.</p>
+              </div>
+              <img src="https://picsum.photos/seed/crescendo-guitar/520/360" width="520" height="360" alt="A person playing an acoustic guitar" loading="lazy" />
+            </div>
+          </div>
+
+          <div class="subject-panel" role="tabpanel" id="panel-violin" aria-labelledby="tab-violin" hidden>
+            <div class="panel-grid">
+              <div class="panel-text">
+                <h3>Violin</h3>
+                <p>Beautiful but tricky to start — so I focus heavily on posture, bow control and a lovely tone from the very first lessons, using plenty of duets so you're never playing alone.</p>
+                <ul class="panel-points">
+                  <li>Posture, bowing &amp; intonation foundations</li>
+                  <li>ABRSM grades &amp; orchestral repertoire</li>
+                  <li>Suitable from age 6 with a correctly sized instrument</li>
+                </ul>
+                <p class="panel-meta"><strong>Best for:</strong> ages 6+, school orchestra players, adults.</p>
+              </div>
+              <img src="https://picsum.photos/seed/crescendo-violin/520/360" width="520" height="360" alt="A violin resting on sheet music" loading="lazy" />
+            </div>
+          </div>
+
+          <div class="subject-panel" role="tabpanel" id="panel-singing" aria-labelledby="tab-singing" hidden>
+            <div class="panel-grid">
+              <div class="panel-text">
+                <h3>Singing</h3>
+                <p>A warm, judgement-free space to find your voice. We work on breathing, pitch and confidence through songs you love, whether you're prepping for a show, an audition or simply singing for joy.</p>
+                <ul class="panel-points">
+                  <li>Breath support, pitch &amp; vocal health</li>
+                  <li>Musical theatre, pop &amp; classical styles</li>
+                  <li>Audition &amp; performance preparation</li>
+                </ul>
+                <p class="panel-meta"><strong>Best for:</strong> ages 9+, nervous beginners, performers.</p>
+              </div>
+              <img src="https://picsum.photos/seed/crescendo-sing/520/360" width="520" height="360" alt="A singer holding a microphone mid-performance" loading="lazy" />
+            </div>
+          </div>
+
+          <div class="subject-panel" role="tabpanel" id="panel-theory" aria-labelledby="tab-theory" hidden>
+            <div class="panel-grid">
+              <div class="panel-text">
+                <h3>Music Theory</h3>
+                <p>The grammar of music, taught so it actually makes sense. Essential for ABRSM Grade 6+ practical exams, GCSE and A-Level music, and genuinely useful for any musician who wants to understand what they're playing.</p>
+                <ul class="panel-points">
+                  <li>ABRSM Theory Grades 1&ndash;8</li>
+                  <li>GCSE &amp; A-Level music support</li>
+                  <li>Online or in-studio sessions available</li>
+                </ul>
+                <p class="panel-meta"><strong>Best for:</strong> exam candidates, composers, GCSE/A-Level students.</p>
+              </div>
+              <img src="https://picsum.photos/seed/crescendo-theory/520/360" width="520" height="360" alt="Handwritten music notation on manuscript paper" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== APPROACH / ABOUT TEACHER ===== -->
+  <section class="section section-tint" id="approach" aria-labelledby="approach-title">
+    <div class="container approach-grid">
+      <div class="approach-media reveal">
+        <img src="https://picsum.photos/seed/crescendo-teacher/560/640" width="560" height="640" alt="Portrait of music teacher Eleanor Hartley" loading="lazy" />
+        <div class="approach-stamp" aria-hidden="true">
+          <span>Est.<br>2012</span>
+        </div>
+      </div>
+      <div class="approach-copy reveal">
+        <p class="eyebrow">Meet your teacher</p>
+        <h2 id="approach-title" class="section-title">Hello, I'm Eleanor</h2>
+        <p>I'm a Reading-based music teacher with a degree in Music from the University of Surrey and 14 years of private teaching behind me. Before going full-time with tuition, I performed and accompanied across Berkshire and taught in two local primary schools.</p>
+        <p>My philosophy is simple: <strong>progress comes from enjoyment</strong>. When a student loves what they're learning, the practice takes care of itself. So I build every lesson around real music the student cares about, while quietly developing the technique, reading and theory that let them go further.</p>
+        <div class="approach-pillars">
+          <div class="pillar">
+            <span class="pillar-num">01</span>
+            <h3>Tailored, never templated</h3>
+            <p>Every learner gets a plan shaped around their goals, pace and the music they love.</p>
+          </div>
+          <div class="pillar">
+            <span class="pillar-num">02</span>
+            <h3>Calm, confidence-first</h3>
+            <p>A patient, encouraging room where mistakes are just part of learning — never a big deal.</p>
+          </div>
+          <div class="pillar">
+            <span class="pillar-num">03</span>
+            <h3>Exam-ready when you want it</h3>
+            <p>Optional ABRSM &amp; Trinity prep with a strong track record of merits and distinctions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SCHEDULER (Feature B) ===== -->
+  <section class="section" id="schedule" aria-labelledby="schedule-title">
+    <div class="container">
+      <p class="eyebrow center">Find a time that fits</p>
+      <h2 id="schedule-title" class="section-title">Reserve a lesson slot</h2>
+      <p class="section-intro">Choose a day, then pick an available time. Greyed-out slots are already taken. Confirm to send a no-obligation request — I'll reply within one working day to finalise it.</p>
+
+      <div class="scheduler" id="scheduler">
+        <div class="day-picker" role="tablist" aria-label="Choose a day">
+          <button class="day-btn is-active" role="tab" aria-selected="true" data-day="Tue">Tue</button>
+          <button class="day-btn" role="tab" aria-selected="false" data-day="Wed">Wed</button>
+          <button class="day-btn" role="tab" aria-selected="false" data-day="Thu">Thu</button>
+          <button class="day-btn" role="tab" aria-selected="false" data-day="Fri">Fri</button>
+          <button class="day-btn" role="tab" aria-selected="false" data-day="Sat">Sat</button>
+        </div>
+
+        <div class="slot-grid" id="slotGrid" role="group" aria-label="Available time slots">
+          <!-- slots injected by JS -->
+        </div>
+
+        <div class="scheduler-foot">
+          <p class="slot-selection" id="slotSelection" aria-live="polite">No slot selected yet.</p>
+          <button class="btn btn-primary" id="confirmSlot" type="button" disabled>Confirm this slot</button>
+        </div>
+
+        <div class="scheduler-success" id="schedulerSuccess" role="status" hidden>
+          <svg viewBox="0 0 24 24" class="tick" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+          <p id="schedulerSuccessMsg"></p>
+          <button class="btn btn-ghost" type="button" id="schedulerReset">Pick another slot</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING + BLOCK BOOKING (Feature C) ===== -->
+  <section class="section section-navy" id="pricing" aria-labelledby="pricing-title">
+    <div class="container">
+      <p class="eyebrow center light">Simple, honest pricing</p>
+      <h2 id="pricing-title" class="section-title light">Lesson rates &amp; block booking</h2>
+      <p class="section-intro light">Pay per lesson, or book a full term in advance for a better rate and a guaranteed weekly slot. Use the estimator below to see roughly what a term might cost.</p>
+
+      <div class="pricing-layout">
+        <div class="price-cards">
+          <div class="price-card">
+            <h3>30 minutes</h3>
+            <p class="price"><span>&pound;22</span>/lesson</p>
+            <p class="price-note">Ideal for younger beginners and primary-age children.</p>
+          </div>
+          <div class="price-card featured">
+            <span class="badge">Most popular</span>
+            <h3>45 minutes</h3>
+            <p class="price"><span>&pound;30</span>/lesson</p>
+            <p class="price-note">The sweet spot for most students, from juniors to adults.</p>
+          </div>
+          <div class="price-card">
+            <h3>60 minutes</h3>
+            <p class="price"><span>&pound;38</span>/lesson</p>
+            <p class="price-note">Best for exam years, advanced players and dual subjects.</p>
+          </div>
+        </div>
+
+        <form class="block-form" id="blockForm" novalidate aria-labelledby="block-title">
+          <h3 id="block-title">Block-booking estimate</h3>
+          <p class="block-help">Tell me how you'd like to learn and I'll show an estimated term cost. Block bookings save 5% versus paying weekly.</p>
+
+          <div class="field">
+            <label for="bf-lesson">Lesson length</label>
+            <select id="bf-lesson" name="lessonLength" required>
+              <option value="22">30 minutes (&pound;22)</option>
+              <option value="30" selected>45 minutes (&pound;30)</option>
+              <option value="38">60 minutes (&pound;38)</option>
+            </select>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="bf-perweek">Lessons per week</label>
+              <select id="bf-perweek" name="perWeek" required>
+                <option value="1" selected>1 lesson</option>
+                <option value="2">2 lessons</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="bf-term">Term length (weeks)</label>
+              <select id="bf-term" name="termWeeks" required>
+                <option value="6">6 weeks</option>
+                <option value="10">10 weeks</option>
+                <option value="12" selected>12 weeks (full term)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="estimate" id="estimate" aria-live="polite">
+            <span class="estimate-label">Estimated term cost</span>
+            <span class="estimate-value" id="estimateValue">&pound;342.00</span>
+            <span class="estimate-sub" id="estimateSub">12 lessons &middot; 5% block discount applied</span>
+          </div>
+
+          <div class="field">
+            <label for="bf-name">Your name</label>
+            <input type="text" id="bf-name" name="name" required autocomplete="name" />
+            <span class="error-msg" data-for="bf-name"></span>
+          </div>
+          <div class="field">
+            <label for="bf-email">Email</label>
+            <input type="email" id="bf-email" name="email" required autocomplete="email" />
+            <span class="error-msg" data-for="bf-email"></span>
+          </div>
+          <div class="field">
+            <label for="bf-notes">Anything else? (optional)</label>
+            <textarea id="bf-notes" name="notes" rows="2" placeholder="e.g. which subject, the student's age, preferred days"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-gold">Request this block</button>
+          <p class="form-success" id="blockSuccess" role="status" hidden></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS (Feature D) ===== -->
+  <section class="section section-tint" id="testimonials" aria-labelledby="testi-title">
+    <div class="container">
+      <p class="eyebrow center">Kind words</p>
+      <h2 id="testi-title" class="section-title">What parents &amp; students say</h2>
+      <p class="section-intro">A few of the families I've had the joy of teaching across Reading, Caversham and Earley.</p>
+
+      <div class="testi-grid" id="testiGrid">
+        <!-- testimonials injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TRUST + FAQ (Feature E) ===== -->
+  <section class="section" id="trust" aria-labelledby="trust-title">
+    <div class="container">
+      <p class="eyebrow center">Trust &amp; reassurance</p>
+      <h2 id="trust-title" class="section-title">Safe hands, properly qualified</h2>
+
+      <div class="trust-cards">
+        <div class="trust-card reveal">
+          <svg viewBox="0 0 24 24" class="trust-ico" aria-hidden="true"><path d="M12 1l9 4v6c0 5.6-3.8 10.7-9 12-5.2-1.3-9-6.4-9-12V5z"/><path d="M9 12l2 2 4-4" stroke="#fff" stroke-width="2" fill="none"/></svg>
+          <h3>Enhanced DBS checked</h3>
+          <p>Current Enhanced DBS certificate, renewed annually and on the Update Service. Safeguarding-trained.</p>
+        </div>
+        <div class="trust-card reveal">
+          <svg viewBox="0 0 24 24" class="trust-ico" aria-hidden="true"><path d="M12 2l2.5 5 5.5.8-4 3.9.9 5.5L12 20l-4.9 2.6.9-5.5-4-3.9 5.5-.8z"/></svg>
+          <h3>Qualified &amp; experienced</h3>
+          <p>BMus (Hons) from the University of Surrey, 14 years' teaching, and a strong record of exam merits and distinctions.</p>
+        </div>
+        <div class="trust-card reveal">
+          <svg viewBox="0 0 24 24" class="trust-ico" aria-hidden="true"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/></svg>
+          <h3>Insured &amp; MU member</h3>
+          <p>Full member of the Musicians' Union with public liability insurance, working from a dedicated home studio.</p>
+        </div>
+      </div>
+
+      <div class="faq" id="faq">
+        <h3 class="faq-heading">Frequently asked questions</h3>
+        <!-- accordion injected by JS -->
+        <div class="faq-list" id="faqList"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section section-navy" id="contact" aria-labelledby="contact-title">
+    <div class="container contact-grid">
+      <div class="contact-copy">
+        <p class="eyebrow light">Get in touch</p>
+        <h2 id="contact-title" class="section-title light">Book your free 20-minute taster</h2>
+        <p class="section-intro light" style="text-align:left;margin-left:0;">No pressure, no obligation — just a friendly chance to meet, try the instrument and see if we're a good fit. Message me however suits you best.</p>
+
+        <ul class="contact-list">
+          <li>
+            <svg viewBox="0 0 24 24" class="ico-gold" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.6a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.5-1.2a2 2 0 0 1 2.1-.5c.8.3 1.7.6 2.6.7a2 2 0 0 1 1.7 2z"/></svg>
+            <a href="tel:+441189460123">0118 946 0123</a>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" class="ico-gold" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.7 15l-1.3 5 5.1-1.3A10 10 0 1 0 12 2z"/></svg>
+            <a href="https://wa.me/441189460123?text=Hi%20Eleanor%2C%20I%27d%20like%20to%20book%20a%20taster%20lesson" target="_blank" rel="noopener">WhatsApp message</a>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" class="ico-gold" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="M4 6l8 6 8-6" stroke="#11203f" stroke-width="2" fill="none"/></svg>
+            <a href="mailto:hello@crescendomusic.co.uk">hello@crescendomusic.co.uk</a>
+          </li>
+        </ul>
+
+        <div class="map-wrap">
+          <iframe
+            title="Map showing the Crescendo Music Tuition studio in Reading"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-0.9879%2C51.4474%2C-0.9679%2C51.4574&amp;layer=mapnik&amp;marker=51.4524%2C-0.9779"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate aria-labelledby="contact-form-title">
+        <h3 id="contact-form-title">Send a message</h3>
+        <div class="field">
+          <label for="cf-name">Name</label>
+          <input type="text" id="cf-name" name="name" required autocomplete="name" />
+          <span class="error-msg" data-for="cf-name"></span>
+        </div>
+        <div class="field">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" name="email" required autocomplete="email" />
+          <span class="error-msg" data-for="cf-email"></span>
+        </div>
+        <div class="field">
+          <label for="cf-phone">Phone (optional)</label>
+          <input type="tel" id="cf-phone" name="phone" autocomplete="tel" />
+        </div>
+        <div class="field">
+          <label for="cf-subject">Interested in</label>
+          <select id="cf-subject" name="subject">
+            <option>Piano</option>
+            <option>Guitar</option>
+            <option>Violin</option>
+            <option>Singing</option>
+            <option>Music Theory</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="4" required placeholder="Tell me a little about the student and what you're hoping for."></textarea>
+          <span class="error-msg" data-for="cf-message"></span>
+        </div>
+        <button type="submit" class="btn btn-gold">Send message</button>
+        <p class="form-success" id="contactSuccess" role="status" hidden></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#top" class="brand brand-footer" aria-label="Crescendo Music Tuition home">
+        <svg class="brand-mark" viewBox="0 0 64 64" width="36" height="36" aria-hidden="true">
+          <rect width="64" height="64" rx="14" fill="#d8a64a"/>
+          <path d="M40 14v23.2a9 9 0 1 1-4-7.48V20l-14 4v17.2a9 9 0 1 1-4-7.48V22a4 4 0 0 1 3-3.87l15-4.26A3 3 0 0 1 40 14z" fill="#11203f"/>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name">Crescendo</span>
+          <span class="brand-sub">Music Tuition</span>
+        </span>
+      </a>
+      <p class="footer-tag">Warm, friendly music lessons in the heart of Reading.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Find us</h4>
+      <address>
+        Crescendo Studio<br>
+        27 Castle Street<br>
+        Reading, Berkshire<br>
+        RG1 7SB
+      </address>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul class="footer-links">
+        <li><a href="tel:+441189460123">0118 946 0123</a></li>
+        <li><a href="mailto:hello@crescendomusic.co.uk">hello@crescendomusic.co.uk</a></li>
+        <li><a href="https://wa.me/441189460123" target="_blank" rel="noopener">WhatsApp</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Teaching hours</h4>
+      <ul class="footer-hours">
+        <li><span>Tue&ndash;Fri</span><span>3:00pm&ndash;8:00pm</span></li>
+        <li><span>Saturday</span><span>9:00am&ndash;2:00pm</span></li>
+        <li><span>Sun &amp; Mon</span><span>Closed</span></li>
+      </ul>
+      <div class="socials" aria-label="Social media">
+        <a href="https://www.facebook.com/crescendomusictuition" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 9h3V6h-3a4 4 0 0 0-4 4v2H7v3h3v6h3v-6h3l1-3h-4v-2a1 1 0 0 1 1-1z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/crescendomusictuition" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2"/></svg>
+        </a>
+        <a href="https://www.youtube.com/@crescendomusictuition" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z" fill="#11203f"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>&copy; <span id="year">2026</span> Crescendo Music Tuition. All rights reserved. Demonstration website.</p>
+      <p class="built-by">Demo site built by <a href="https://bozapps.co.uk" target="_blank" rel="noopener">BozApps — bozapps.co.uk</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
